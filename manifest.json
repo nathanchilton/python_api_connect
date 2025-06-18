@@ -1,0 +1,28 @@
+{
+  "name": "Python API",
+  "version": "1.0.0",
+  "description": "A FastAPI application with SQLite database integration.",
+  "main": "app/main.py",
+  "scripts": {
+    "start": "uvicorn app.main:app --host 0.0.0.0 --port 8000"
+  },
+  "dependencies": {
+    "fastapi": "^0.68.0",
+    "uvicorn": "^0.15.0",
+    "sqlalchemy": "^1.4.22",
+    "databases": "^0.5.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/python_api_connect.git"
+  },
+  "keywords": [
+    "fastapi",
+    "sqlite",
+    "api",
+    "rsconnect",
+    "dashboard"
+  ],
+  "author": "YOUR_NAME",
+  "license": "MIT"
+}

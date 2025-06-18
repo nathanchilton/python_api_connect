@@ -1,0 +1,32 @@
+# Posit Connect Deployment Requirements
+# This file ensures all necessary files are included in deployment
+
+# Python dependencies
+requirements.txt
+
+# Application code
+app/
+app/__init__.py
+app/main.py
+app/models/
+app/models/__init__.py
+app/models/database.py
+app/models/item.py
+app/routers/
+app/routers/__init__.py
+app/routers/api.py
+app/utils/
+app/utils/__init__.py
+app/utils/helpers.py
+
+# SQL files
+sql/
+sql/create_tables.sql
+sql/seed_data.sql
+
+# Data directory (will be created)
+data/
+data/database.db
+
+# Optional
+README.md
